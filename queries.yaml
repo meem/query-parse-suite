@@ -3,6 +3,8 @@
 - query: second=hello+world
   section: general
   description: test handling of `+`
+- query: one&two&three
+  description: no `=`
 - query: one=hello;two=world
   description: test handling of historical ';' W3C recommendation
 - query: ()=1&[]=2&{}=3&:=4&+=5
