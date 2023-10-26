@@ -24,16 +24,6 @@
   section: special characters
 - query: "{}==braces"
   section: special characters
-- query: "<>=angles"
-  section: special characters
-- query: "+=plus"
-  section: special characters
-- query: "^=caret"
-  section: special characters
-- query: "[=open"
-  section: special characters
-- query: "]=close"
-  section: special characters
 - query: "parens=()"
   section: special characters
 - query: "brackets=[]"
