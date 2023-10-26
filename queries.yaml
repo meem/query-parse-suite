@@ -3,6 +3,8 @@
 - query: second=hello+world
   section: general
   description: test handling of `+`
+- query: one=a(){}[]:;+-&two=b,.?|\&three=c!@$^*&four=d""
+  description: test a variety of hazardous characters
 - query: third%20=sup
   section: general
 - query: '&=&garbage=====&===&&&&==&&and=99'
@@ -29,13 +31,11 @@
   section: integers
 - query: cast_to_integer=%20100
   section: integers
-- query: cast_to_integer=" 100"
-  section: integers
 - query: cast_to_integer="100"
   section: integers
-- query: cast_to_integer=%22100%22
+- query: cast_to_integer=+100
   section: integers
-- query: cast_to_integer=%22%20100%22
+- query: cast_to_integer=%2b100
   section: integers
 - query: cast_to_float=100
   section: floats
@@ -47,15 +47,9 @@
   section: floats
 - query: cast_to_float=100.5
   section: floats
-- query: cast_to_float=100.5
-  section: floats
 - query: cast_to_float=1.5e2
   section: floats
 - query: cast_to_float=%20100.5
-  section: floats
-- query: cast_to_float=" 100.5"
-  section: floats
-- query: cast_to_float="100"
   section: floats
 - query: cast_to_boolean=true
   section: booleans
