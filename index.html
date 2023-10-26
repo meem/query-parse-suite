@@ -187,6 +187,77 @@
         </tbody>
         <thead>
           <tr>
+            <th>:</th>
+            <th>.NET (minimal)</th>
+            <th>Go (vanilla)</th>
+            <th>Java (Spring)</th>
+            <th>Node (Express)</th>
+            <th>PHP (vanilla)</th>
+            <th>Python (Django)</th>
+            <th>Ruby (on Rails)</th>
+            <th>WHATWG URL</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div><span class="hljs-attr" title="one">one</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="a(){}[]:;+-">a(){}[]:;+-</span><span class="hljs-punctuation">&amp;</span><span class="hljs-attr" title="two">two</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="b,.?|\">b,.?|\</span><span class="hljs-punctuation">&amp;</span><span class="hljs-attr" title="three">three</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="c!@$^*">c!@$^*</span><span class="hljs-punctuation">&amp;</span><span class="hljs-attr" title="four">four</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="d&quot;&quot;">d&quot;&quot;</span></div>
+              <p>test a variety of hazardous characters</p>
+
+            </td>
+            <td style="border-color: hsl(114 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;a(){}[]:; -&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;two&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;b,.?|\\&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;three&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;c!@$^*&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;four&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;d\&quot;\&quot;&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(139 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;four&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;d\&quot;\&quot;&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;three&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;c!@$^*&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;two&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;b,.?|\\&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
+            <td style="border-color: hsl(114 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;a(){}[]:; -&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;two&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;b,.?|\\&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;three&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;c!@$^*&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;four&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;d\&quot;\&quot;&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(114 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;a(){}[]:; -&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;two&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;b,.?|\\&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;three&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;c!@$^*&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;four&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;d\&quot;\&quot;&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(114 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;a(){}[]:; -&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;two&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;b,.?|\\&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;three&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;c!@$^*&quot;</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-attr">&quot;four&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;d\&quot;\&quot;&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
+            <td style="border-color: hsl(158 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
+  <span class="hljs-punctuation">[</span>
+    <span class="hljs-string">&quot;one&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-string">&quot;a(){}[]:; -&quot;</span>
+  <span class="hljs-punctuation">]</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-punctuation">[</span>
+    <span class="hljs-string">&quot;two&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-string">&quot;b,.?|\\&quot;</span>
+  <span class="hljs-punctuation">]</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-punctuation">[</span>
+    <span class="hljs-string">&quot;three&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-string">&quot;c!@$^*&quot;</span>
+  <span class="hljs-punctuation">]</span><span class="hljs-punctuation">,</span>
+  <span class="hljs-punctuation">[</span>
+    <span class="hljs-string">&quot;four&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-string">&quot;d\&quot;\&quot;&quot;</span>
+  <span class="hljs-punctuation">]</span>
+<span class="hljs-punctuation">]</span></td>
+          </tr>
+        </tbody>
+        <thead>
+          <tr>
             <th>precedence:</th>
             <th>.NET (minimal)</th>
             <th>Go (vanilla)</th>
@@ -621,31 +692,6 @@
           </tr>
           <tr>
             <td>
-              <div><span class="hljs-attr" title="cast_to_integer">cast_to_integer</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="&quot; 100&quot;">&quot; 100&quot;</span></div>
-              
-            </td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(251 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(170 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(170 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(69 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
-  <span class="hljs-punctuation">[</span>
-    <span class="hljs-string">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">,</span>
-    <span class="hljs-string">&quot;\&quot; 100\&quot;&quot;</span>
-  <span class="hljs-punctuation">]</span>
-<span class="hljs-punctuation">]</span></td>
-          </tr>
-          <tr>
-            <td>
               <div><span class="hljs-attr" title="cast_to_integer">cast_to_integer</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="&quot;100&quot;">&quot;100&quot;</span></div>
               
             </td>
@@ -671,51 +717,63 @@
           </tr>
           <tr>
             <td>
-              <div><span class="hljs-attr" title="cast_to_integer">cast_to_integer</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="&quot;100&quot;">%22100%22</span></div>
+              <div><span class="hljs-attr" title="cast_to_integer">cast_to_integer</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="+100">+100</span></div>
               
             </td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(251 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(170 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
 <span class="hljs-punctuation">}</span></td>
             <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(170 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
+            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
 <span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(277 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(35 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
   <span class="hljs-punctuation">[</span>
     <span class="hljs-string">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">,</span>
-    <span class="hljs-string">&quot;\&quot;100\&quot;&quot;</span>
+    <span class="hljs-string">&quot; 100&quot;</span>
   <span class="hljs-punctuation">]</span>
 <span class="hljs-punctuation">]</span></td>
           </tr>
           <tr>
             <td>
-              <div><span class="hljs-attr" title="cast_to_integer">cast_to_integer</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="&quot; 100&quot;">%22%20100%22</span></div>
+              <div><span class="hljs-attr" title="cast_to_integer">cast_to_integer</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="+100">%2b100</span></div>
               
             </td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(251 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
 <span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(170 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
 <span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(170 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
 <span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(69 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(211 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(91 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
   <span class="hljs-punctuation">[</span>
     <span class="hljs-string">&quot;cast_to_integer&quot;</span><span class="hljs-punctuation">,</span>
-    <span class="hljs-string">&quot;\&quot; 100\&quot;&quot;</span>
+    <span class="hljs-string">&quot;+100&quot;</span>
   <span class="hljs-punctuation">]</span>
 <span class="hljs-punctuation">]</span></td>
           </tr>
@@ -885,39 +943,6 @@
           </tr>
           <tr>
             <td>
-              <div><span class="hljs-attr" title="cast_to_float">cast_to_float</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="100.5">100.5</span></div>
-              
-            </td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(258 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">100.5</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(207 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
-  <span class="hljs-punctuation">[</span>
-    <span class="hljs-string">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">,</span>
-    <span class="hljs-string">&quot;100.5&quot;</span>
-  <span class="hljs-punctuation">]</span>
-<span class="hljs-punctuation">]</span></td>
-          </tr>
-          <tr>
-            <td>
               <div><span class="hljs-attr" title="cast_to_float">cast_to_float</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="1.5e2">1.5e2</span></div>
               
             </td>
@@ -977,56 +1002,6 @@
   <span class="hljs-punctuation">[</span>
     <span class="hljs-string">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">,</span>
     <span class="hljs-string">&quot; 100.5&quot;</span>
-  <span class="hljs-punctuation">]</span>
-<span class="hljs-punctuation">]</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div><span class="hljs-attr" title="cast_to_float">cast_to_float</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="&quot; 100.5&quot;">&quot; 100.5&quot;</span></div>
-              
-            </td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(290 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(322 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(322 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(24 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
-  <span class="hljs-punctuation">[</span>
-    <span class="hljs-string">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">,</span>
-    <span class="hljs-string">&quot;\&quot; 100.5\&quot;&quot;</span>
-  <span class="hljs-punctuation">]</span>
-<span class="hljs-punctuation">]</span></td>
-          </tr>
-          <tr>
-            <td>
-              <div><span class="hljs-attr" title="cast_to_float">cast_to_float</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="&quot;100&quot;">&quot;100&quot;</span></div>
-              
-            </td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(290 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(322 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
-            <td style="border-color: hsl(322 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-number">0</span>
-<span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(75 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
-  <span class="hljs-punctuation">[</span>
-    <span class="hljs-string">&quot;cast_to_float&quot;</span><span class="hljs-punctuation">,</span>
-    <span class="hljs-string">&quot;\&quot;100\&quot;&quot;</span>
   <span class="hljs-punctuation">]</span>
 <span class="hljs-punctuation">]</span></td>
           </tr>
@@ -2697,8 +2672,8 @@
             <td style="border-color: hsl(296 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
   <span class="hljs-attr">&quot;cast_to_date_time&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
 <span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(318 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_date_time&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;2023-10-26T04:53:33.062Z&quot;</span>
+            <td style="border-color: hsl(196 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_date_time&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;2023-10-26T05:13:44.142Z&quot;</span>
 <span class="hljs-punctuation">}</span></td>
             <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
             <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
