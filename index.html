@@ -201,6 +201,36 @@
         <tbody>
           <tr>
             <td>
+              <div><span class="hljs-attr" title="one">one</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="hello;two&#x3D;world">hello;two&#x3D;world</span></div>
+              <p>test handling of historical ';' W3C recommendation</p>
+
+            </td>
+            <td style="border-color: hsl(194 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;hello;two=world&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(355 50% 50%)" class="json"><span class="hljs-punctuation">{</span><span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(194 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;hello;two=world&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(194 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;hello;two=world&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(194 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;hello;two=world&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(194 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;one&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;hello;two=world&quot;</span>
+<span class="hljs-punctuation">}</span></td>
+            <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
+            <td style="border-color: hsl(329 50% 50%)" class="json"><span class="hljs-punctuation">[</span>
+  <span class="hljs-punctuation">[</span>
+    <span class="hljs-string">&quot;one&quot;</span><span class="hljs-punctuation">,</span>
+    <span class="hljs-string">&quot;hello;two=world&quot;</span>
+  <span class="hljs-punctuation">]</span>
+<span class="hljs-punctuation">]</span></td>
+          </tr>
+          <tr>
+            <td>
               <div><span class="hljs-attr" title="one">one</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="a(){}[]:;+-">a(){}[]:;+-</span><span class="hljs-punctuation">&amp;</span><span class="hljs-attr" title="two">two</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="b,.?|\">b,.?|\</span><span class="hljs-punctuation">&amp;</span><span class="hljs-attr" title="three">three</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="c!@$^*">c!@$^*</span><span class="hljs-punctuation">&amp;</span><span class="hljs-attr" title="four">four</span><span class="hljs-punctuation">&#x3D;</span><span class="hljs-string" title="d&quot;&quot;">d&quot;&quot;</span></div>
               <p>test a variety of hazardous characters</p>
 
@@ -2672,8 +2702,8 @@
             <td style="border-color: hsl(296 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
   <span class="hljs-attr">&quot;cast_to_date_time&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">null</span></span>
 <span class="hljs-punctuation">}</span></td>
-            <td style="border-color: hsl(196 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
-  <span class="hljs-attr">&quot;cast_to_date_time&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;2023-10-26T05:13:44.142Z&quot;</span>
+            <td style="border-color: hsl(107 50% 50%)" class="json"><span class="hljs-punctuation">{</span>
+  <span class="hljs-attr">&quot;cast_to_date_time&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;2023-10-26T05:15:56.414Z&quot;</span>
 <span class="hljs-punctuation">}</span></td>
             <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
             <td style="border-color: hsl(0 50% 50%)" class="error">&#9888;&#65039;</td>
