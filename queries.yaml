@@ -3,6 +3,8 @@
 - query: second=hello+world
   section: general
   description: test handling of `+`
+- query: one=hello;two=world
+  description: test handling of historical ';' W3C recommendation
 - query: one=a(){}[]:;+-&two=b,.?|\&three=c!@$^*&four=d""
   description: test a variety of hazardous characters
 - query: third%20=sup
