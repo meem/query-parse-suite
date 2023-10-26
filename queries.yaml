@@ -75,6 +75,8 @@
   section: special characters
 - query: ";=semi"
   section: special characters
+- query: "+=plus=;&=semi;[=&open-bracket&a+a=contains-plus&a;a=contains-semi&a[a=contains-open-bracket"
+  section: special characters
 - query: "a,b=comma-separated"
   section: special characters
 - query: "a:b=colon-separated"
