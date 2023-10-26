@@ -87,7 +87,7 @@ for (const index in queries) {
       renderResult(nodeExpressResults[index].result),
       renderResult(phpVanillaResults[index].result),
       renderResult(pythonDjangoResults[index].result),
-      renderResult(rubyOnRailsResults[index] ? rubyOnRailsResults[index].result : {}),
+      renderResult(rubyOnRailsResults[index] != undefined ? rubyOnRailsResults[index].result : {}),
       renderResult(whatwgURLResults[index].result)
     ]
   });
