@@ -69,8 +69,6 @@
   section: special characters
 - query: slash=/
   section: special characters
-- query: colon=:
-  section: special characters
 - query: at=@
   section: special characters
 - query: tilde=~
