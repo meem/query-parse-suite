@@ -21,6 +21,26 @@
 - query: one=hello;two=world
   section: general
   description: handling of historical ';' separator recommendation
+- query: third%20=sup
+  section: general
+- query: '&=&garbage=====&===&&&&==&&and=99'
+  section: general
+- query: order=first&order=second
+  section: precedence
+- query: array[]=first&array[]=second
+  section: arrays
+- query: array[]=first&array=second
+  section: arrays
+- query: array=first&array[]=second
+  section: arrays
+- query: array=first&array[]=second&array[][]=third
+  section: arrays
+- query: array=first&array[]=second&array[=third
+  section: arrays
+- query: array=first&array[]=second&array[[]=third
+  section: arrays
+- query: array=first&array[]=second&array[]]=third
+  section: arrays
 - query: "()=parens"
   section: special characters
 - query: "[]=brackets"
@@ -90,22 +110,6 @@
 - query: one=a(){}[]&two=b:;+-&three=c,.?|\&four=d@$^*&five=e""
   section: special characters
   description: test a variety of hazardous characters
-- query: third%20=sup
-  section: general
-- query: '&=&garbage=====&===&&&&==&&and=99'
-  section: general
-- query: order=first&order=second
-  section: precedence
-- query: array[]=first&array[]=second
-  section: arrays
-- query: array[]=first&array=second
-  section: arrays
-- query: array=first&array[]=second
-  section: arrays
-- query: array=first&array[]=second&array[][]=third
-  section: arrays
-- query: array=first&array[]=second&array[=third
-  section: arrays
 - query: string=one%20two
   section: strings
 - query: string="one%20two"
