@@ -81,6 +81,10 @@
   section: special characters
 - query: "parens=()"
   section: special characters
+- query: "open-paren=("
+  section: special characters
+- query: "close-paren=)"
+  section: special characters
 - query: "brackets=[]"
   section: special characters
 - query: "braces={}"
@@ -93,9 +97,9 @@
   section: special characters
 - query: "caret=^"
   section: special characters
-- query: "open=["
+- query: "open-bracket=["
   section: special characters
-- query: "close=]"
+- query: "close-bracket=]"
   section: special characters
 - query: "bar=|"
   section: special characters
@@ -115,9 +119,9 @@
   section: special characters
 - query: "colon-separated=a:b"
   section: special characters
-- query: "b=b:;+-"
+- query: "plus=+&semi=;&open-bracket=[&contains-plus=a+a&contains-semi=a;a&contains-open-bracket=a[a"
   section: special characters
-  description: test a variety of hazardous characters
+  description: summary of hazardous special characters
 - query: string=one%20two
   section: strings
 - query: string="one%20two"
