@@ -9,6 +9,12 @@
 - query: one&&two
   section: general
   description: handling of no content
+- query: "%61=b"
+  section: general
+  description: percent-encoded query parameter name of a
+- query: "%20=b"
+  section: general
+  description: percent-encoded query parameter name of space
 - query: one=hello;two=world
   section: general
   description: handling of historical ';' separator recommendation
