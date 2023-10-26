@@ -51,12 +51,6 @@
   section: special characters
 - query: "<>=angles"
   section: special characters
-- query: "!=exclamation"
-  section: special characters
-- query: "$=dollar"
-  section: special characters
-- query: "*=star"
-  section: special characters
 - query: "+=plus"
   section: special characters
 - query: "-=minus"
