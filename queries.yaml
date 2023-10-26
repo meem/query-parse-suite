@@ -5,7 +5,9 @@
   description: test handling of `+`
 - query: one=hello;two=world
   description: test handling of historical ';' W3C recommendation
-- query: one=a(){}[]:;+-&two=b,.?|\&three=c!@$^*&four=d""
+- query: ()=1&[]=2&{}=3&:=4&+=5
+  description: test a variety of hazardous characters as parameter names
+- query: one=a(){}[]&two=b:;+-&three=c,.?|\four=d@$^*&five=e""
   description: test a variety of hazardous characters
 - query: third%20=sup
   section: general
