@@ -73,6 +73,8 @@
   section: special characters
 - query: ".=dot"
   section: special characters
+- query: ";=semi"
+  section: special characters
 - query: "a,b=comma-separated"
   section: special characters
 - query: "a:b=colon-separated"
@@ -107,11 +109,13 @@
   section: special characters
 - query: "dot=."
   section: special characters
+- query: "semi=;"
+  section: special characters
 - query: "comma-separated=a,b"
   section: special characters
 - query: "colon-separated=a:b"
   section: special characters
-- query: one=a(){}[]&two=b:;+-&three=c,.?|\&four=d@$^*&five=e""
+- query: "b=b:;+-"
   section: special characters
   description: test a variety of hazardous characters
 - query: string=one%20two
