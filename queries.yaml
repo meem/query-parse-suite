@@ -6,6 +6,9 @@
 - query: one&two&three
   section: general
   description: handling of no `=`
+- query: one=one&two==one&three===three
+  section: general
+  description: handling of extra `=`
 - query: one=one&&two=two
   section: general
   description: handling of empty element
@@ -20,9 +23,11 @@
   description: handling of historical ';' separator recommendation
 - query: "()=parens"
   section: special characters
-- query: "[]==brackets"
+- query: "[]=brackets"
   section: special characters
-- query: "{}==braces"
+- query: "[][]=brackets"
+  section: special characters
+- query: "{}=braces"
   section: special characters
 - query: "<>=angles"
   section: special characters
