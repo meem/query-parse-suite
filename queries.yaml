@@ -6,9 +6,9 @@
 - query: one&two&three
   section: general
   description: handling of no `=`
-- query: one&&two
+- query: one=one&&two=two
   section: general
-  description: handling of no content
+  description: handling of empty element
 - query: "%61=b"
   section: general
   description: percent-encoded query parameter name of a
@@ -18,7 +18,7 @@
 - query: one=hello;two=world
   section: general
   description: handling of historical ';' separator recommendation
-- query: ()=1&[]=2&{}=3&<>=4&+=5&^=6&[=7&]=8&|=9\\=10&:=11&@=12
+- query: ()=1&[]=2&{}=3&<>=4&+=5&^=6&[=7&]=8&|=9&\\=10&:=11&@=12
   section: general
   description: test a variety of hazardous characters as parameter names
 - query: one=a(){}[]&two=b:;+-&three=c,.?|\&four=d@$^*&five=e""
