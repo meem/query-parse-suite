@@ -87,6 +87,8 @@
   section: special characters
 - query: "plus=+"
   section: special characters
+- query: "minus=-"
+  section: special characters
 - query: "caret=^"
   section: special characters
 - query: "open=["
