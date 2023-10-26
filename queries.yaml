@@ -20,6 +20,10 @@
   description: handling of historical ';' separator recommendation
 - query: ()=parens
   section: special characters
+- query: "[]==brackets"
+  section: special characters
+- query: "{}==braces"
+  section: special characters
 - query: "<>=angles"
   section: special characters
 - query: "+=plus"
@@ -35,8 +39,6 @@
 - query: "\\=backslash"
   section: special characters
 - query: "/=slash"
-  section: special characters
-- query: ":=colon"
   section: special characters
 - query: "@=at"
   section: special characters
