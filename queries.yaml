@@ -6,10 +6,13 @@
 - query: one&two&three
   section: general
   description: handling of no `=`
+- query: one&&two
+  section: general
+  description: handling of no content
 - query: one=hello;two=world
   section: general
   description: handling of historical ';' separator recommendation
-- query: "()=1&[]=2&{}=3&<>=4&+=5&^=6&[=7&]=8&|=9&\=10&:=11&@=12"
+- query: ()=1&[]=2&{}=3&<>=4&+=5&^=6&[=7&]=8&|=9\\=10&:=11&@=12
   section: general
   description: test a variety of hazardous characters as parameter names
 - query: one=a(){}[]&two=b:;+-&three=c,.?|\&four=d@$^*&five=e""
