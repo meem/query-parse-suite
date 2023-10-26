@@ -20,7 +20,7 @@
   description: handling of historical ';' separator recommendation
 - query: ()=parens
   section: special characters
-- query: []=brackets
+- query: []=[brackets]
   section: special characters
 - query: {}=braces
   section: special characters
