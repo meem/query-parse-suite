@@ -6,7 +6,7 @@
 - query: one&two&three
   section: general
   description: handling of no `=`
-- query: one=one&two==one&three===three
+- query: one=one&two==two&three===three
   section: general
   description: handling of extra `=`
 - query: one=one&&two=two&&&three=three
