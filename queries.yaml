@@ -46,8 +46,10 @@
   section: special characters
 - query: ".=dot"
   section: special characters
-- query: ",=comma"
- section: special characters
+- query: "a,b=comma"
+  section: special characters
+- query: "a:b=colon"
+  section: special characters
 - query: "parens=()"
   section: special characters
 - query: "brackets=[]"
