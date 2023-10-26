@@ -96,7 +96,9 @@
   section: arrays
 - query: array=first&array[]=second
   section: arrays
-- query: array[]=first,second
+- query: array=first&array[]=second&array[][]=third
+  section: arrays
+- query: array=first&array[]=second&array[=third
   section: arrays
 - query: string=one%20two
   section: strings
