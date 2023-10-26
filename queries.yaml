@@ -9,9 +9,9 @@
 - query: one=one&two==one&three===three
   section: general
   description: handling of extra `=`
-- query: one=one&&two=two
+- query: one=one&&two=two&&&three=three
   section: general
-  description: handling of empty element
+  description: handling of empty elements
 - query: "%61=b"
   section: general
   description: percent-encoded query parameter name of a
@@ -51,9 +51,9 @@
   section: special characters
 - query: ".=dot"
   section: special characters
-- query: "a,b=comma"
+- query: "a,b=comma-separated"
   section: special characters
-- query: "a:b=colon"
+- query: "a:b=colon-separated"
   section: special characters
 - query: "parens=()"
   section: special characters
@@ -83,7 +83,9 @@
   section: special characters
 - query: "dot=."
   section: special characters
-- query: "comma=,"
+- query: "comma-separated=a,b"
+  section: special characters
+- query: "colon-separated=a:b"
   section: special characters
 - query: one=a(){}[]&two=b:;+-&three=c,.?|\&four=d@$^*&five=e""
   section: special characters
