@@ -29,6 +29,16 @@
   section: precedence
 - query: array[]=first&array[]=second
   section: arrays
+- query: array[0]=first&array[1]=second
+  section: arrays
+- query: array[0]=first&array[0]=second
+  section: arrays
+- query: array[a]=first&array[a]=second
+  section: arrays
+- query: array[a]=first&array[b]=second
+  section: arrays
+- query: array[-1]=first&array[a]=second
+  section: arrays
 - query: array[]=first&array=second
   section: arrays
 - query: array=first&array[]=second
